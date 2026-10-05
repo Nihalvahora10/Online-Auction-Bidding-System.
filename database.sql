@@ -3,7 +3,7 @@ CREATE DATABASE auction_db;
 USE auction_db;
 
 
-# Creating users table with integrity constraints
+# Creating users table with integrity constraint
 CREATE TABLE users(
 id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(100),
